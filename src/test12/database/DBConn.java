@@ -19,9 +19,6 @@ public class DBConn {
     private DBConn() {
         try {
 
-
-
-
             Properties properties = new Properties();
             FileInputStream input = new FileInputStream("src/db.properties");
             properties.load(input);
