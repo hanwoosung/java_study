@@ -25,5 +25,8 @@ public class DateTimeTest2 {
         Calendar c2 = Calendar.getInstance();
         c2.set(2024,Calendar.AUGUST,26,00,11,22);
         System.out.println(sf.format(c2.getTime()));
+
+
+
     }
 }
