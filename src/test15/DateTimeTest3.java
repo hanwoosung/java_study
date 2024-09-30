@@ -37,6 +37,5 @@ public class DateTimeTest3 {
         String str =  birthday.format(dtf);
         System.out.println(str);
 
-
     }
 }
