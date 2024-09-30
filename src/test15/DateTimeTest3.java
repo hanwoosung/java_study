@@ -31,6 +31,7 @@ public class DateTimeTest3 {
         System.out.println(birthday);
 
         String str1 = birthday.format(DateTimeFormatter.ISO_DATE_TIME);
+
         System.out.println(str1);
 
         //형식 지정하기
