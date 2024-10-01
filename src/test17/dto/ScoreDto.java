@@ -1,0 +1,37 @@
+package test17.dto;
+
+public class ScoreDto {
+    private int sno;
+    private String sname;
+    private int score;
+
+    public ScoreDto(int sno, String sname, int score) {
+        this.sno = sno;
+        this.sname = sname;
+        this.score = score;
+    }
+
+    public int getSno() {
+        return sno;
+    }
+
+    public void setSno(int sno) {
+        this.sno = sno;
+    }
+
+    public String getSname() {
+        return sname;
+    }
+
+    public void setSname(String sname) {
+        this.sname = sname;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
+}

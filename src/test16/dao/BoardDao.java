@@ -6,7 +6,6 @@ import test16.dto.CommentDto;
 
 import java.sql.*;
 import java.util.ArrayList;
-
 public class BoardDao {
     private static final Connection conn = DBConn.getInstance().getConnection();
 
